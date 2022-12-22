@@ -66,8 +66,8 @@ public class Main {
         double averageSum = 0;
         for (int j : arr) {
             sum = sum + j;
-            averageSum = (double) sum / days;
         }
+        averageSum = (double) sum / days;
         System.out.printf("Средняя сумма трат за месяц составила %f рублей\n",averageSum);
     }
 
